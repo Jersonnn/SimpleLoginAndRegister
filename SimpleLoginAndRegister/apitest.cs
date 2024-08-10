@@ -10,7 +10,7 @@ namespace SimpleLoginAndRegister
 
         static async Task Main(string[] args)
         {
-            var apiUrl = "https://testapi.secretshop.freewebhostmost.com/Login.php";
+            var apiUrl = "https://localhost/Login.php";
 
             using (HttpClient httpClient = new HttpClient())
             {

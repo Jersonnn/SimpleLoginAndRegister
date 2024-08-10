@@ -5,6 +5,13 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLoginAndRegister", "SimpleLoginAndRegister\SimpleLoginAndRegister.csproj", "{4DD386F4-0F29-439D-A4C1-43F36D31399F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F4F3282F-4CE4-4429-8CD4-15058ED5CFED}"
+	ProjectSection(SolutionItems) = preProject
+		PHP API\db.php = PHP API\db.php
+		PHP API\login.php = PHP API\login.php
+		PHP API\register.php = PHP API\register.php
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -5,7 +5,9 @@ include 'db.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$query = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
+$hashed_password = password_hash($password, PASSWORD_BCRYPT);
+
+$query = "INSERT INTO users (username, password) VALUES ('$username', '$hashed_password')";
 if (mysqli_query($conn, $query)) {
     echo json_encode(["message" => "Registration successful"]);
 } else {

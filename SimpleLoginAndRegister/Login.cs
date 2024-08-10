@@ -46,7 +46,7 @@ namespace SimpleLoginAndRegister
                     if (responseJson["message"].ToString() == "Login successful")
                     {
                         MessageBox.Show("Login successful!");
-                        // Dashboard form mo
+                        // Dashboard form mo lagay mo rito
                     }
                     else
                     {
